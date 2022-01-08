@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze4/1297.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze5/2338.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze5/2475.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze5/3046.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze3/1085.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze4/1712.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +36,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.1297">
-    <configuration name="1271" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1085">
+    <configuration name="1085" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,11 +45,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaekJoon/Bronze5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaekJoon/Bronze3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaekJoon/Bronze5/1271.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaekJoon/Bronze3/1085.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2338" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1712" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaekJoon/Bronze5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaekJoon/Bronze4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaekJoon/Bronze5/2338.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaekJoon/Bronze4/1712.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1085" />
+        <item itemvalue="Python.1712" />
         <item itemvalue="Python.1297" />
         <item itemvalue="Python.3046" />
         <item itemvalue="Python.2475" />
-        <item itemvalue="Python.2338" />
-        <item itemvalue="Python.1271" />
       </list>
     </recent_temporary>
   </component>
