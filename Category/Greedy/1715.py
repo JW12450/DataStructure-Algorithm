@@ -100,10 +100,11 @@ print(sum(count_list))
 
 
 """
+#백준 1715 카드정렬하기
 import heapq # 우선순위 큐
 
 N = int(input())
-
+#정렬된 두 묶음의 숫자 카드를 한 묶음으로 만드는 경우 A+B번의 연산이 필요
 cardList = list(int(input()) for _ in range(N))
 heapq.heapify(cardList)
 result=0
