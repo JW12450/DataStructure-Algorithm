@@ -104,17 +104,22 @@ print(sum(count_list))
 import heapq # 우선순위 큐
 
 N = int(input())
-#정렬된 두 묶음의 숫자 카드를 한 묶음으로 만드는 경우 A+B번의 연산이 필요
+#정렬된 두 묶음의 숫자 카드를 한 묶음으로 만드는 경우 A+B번의 연산이 필요하며,
+#카드뭉치에서 가장 작은 2묶음을 골라서 합은 result에 누적시키고, 그 더한 값은 카드뭉치로
 cardList = list(int(input()) for _ in range(N))
+# 우선순위 큐 사용
 heapq.heapify(cardList)
 result=0
 
 
 while len(cardList) != 1:
+    # 가장 작은 2개의 값 선택
     num1 = heapq.heappop(cardList)
     num2 = heapq.heappop(cardList)
     Sum = num1 + num2
+    #두개를 더한 결과는 result에 누적
     result += Sum
+    #
     heapq.heappush(cardList,Sum)
 
 print(result)

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Category/Greedy/1715.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Greedy/1715.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
