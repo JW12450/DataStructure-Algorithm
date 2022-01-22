@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Category/Implementation/2108_통계학.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/10814_나이순정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/10989_수정렬하기3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/11650_좌표정렬하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/11651_좌표정렬하기2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/1181_단어정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/1427_소트인사이드.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/18870_좌표압축.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/2751_수정렬하기2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Category/Implementation/1966_프린터큐.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Implementation/1966_프린터큐.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +51,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.2108_통계학">
-    <configuration name="1065_한수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.10814_나이순정렬">
+    <configuration name="10814_나이순정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,11 +60,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BruteForce" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BruteForce/1065_한수.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Sorting/10814_나이순정렬.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -67,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10733_제로" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="11650_좌표정렬하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Implementation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Implementation/10733_제로.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Sorting/11650_좌표정렬하기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11729_하노이탑" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="11651_좌표정렬하기2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Doit_DS,Algorithm/05_recursion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Doit_DS,Algorithm/05_recursion/11729_하노이탑.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Sorting/11651_좌표정렬하기2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1966_프린터큐" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1181_단어정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Implementation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Implementation/1966_프린터큐.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Sorting/1181_단어정렬.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2108_통계학" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="18870_좌표압축" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Implementation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Implementation/2108_통계학.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Sorting/18870_좌표압축.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2108_통계학" />
-        <item itemvalue="Python.1966_프린터큐" />
-        <item itemvalue="Python.10733_제로" />
-        <item itemvalue="Python.1065_한수" />
-        <item itemvalue="Python.11729_하노이탑" />
+        <item itemvalue="Python.10814_나이순정렬" />
+        <item itemvalue="Python.11651_좌표정렬하기2" />
+        <item itemvalue="Python.18870_좌표압축" />
+        <item itemvalue="Python.11650_좌표정렬하기" />
+        <item itemvalue="Python.1181_단어정렬" />
       </list>
     </recent_temporary>
   </component>
