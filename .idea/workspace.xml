@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze2/11720_숫자의합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze2/2920_음계.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze4/1008_A,B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze5/10869_사칙연산.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze5/11654_아스키코드.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Implementation/1978_소수찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/5052_전화번호목록.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doit_DS,Algorithm/04_stack,queue/10866_Deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/Doit_DS,Algorithm/04_stack,queue/10866_Deque.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +50,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.11729_하노이탑">
-    <configuration name="10814_나이순정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1978_소수찾기">
+    <configuration name="1008_A,B" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,11 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Sorting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaekJoon/Bronze4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Sorting/10814_나이순정렬.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaekJoon/Bronze4/1008_A,B.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -66,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10815_숫자카드" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="11654_아스키코드" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Sorting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaekJoon/Bronze5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Sorting/10815_숫자카드.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaekJoon/Bronze5/11654_아스키코드.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10866_Deque" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1978_소수찾기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Doit_DS,Algorithm/04_stack,queue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Implementation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Doit_DS,Algorithm/04_stack,queue/10866_Deque.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Implementation/1978_소수찾기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11729_하노이탑" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2920_음계" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Doit_DS,Algorithm/05_recursion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaekJoon/Bronze2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Doit_DS,Algorithm/05_recursion/11729_하노이탑.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaekJoon/Bronze2/2920_음계.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2630_색종이만들기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="B" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Divide&amp;Conquer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaekJoon/Bronze4/1008_A" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Divide&amp;Conquer/2630_색종이만들기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaekJoon/Bronze4/1008_A/B.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.11729_하노이탑" />
-        <item itemvalue="Python.10866_Deque" />
-        <item itemvalue="Python.2630_색종이만들기" />
-        <item itemvalue="Python.10815_숫자카드" />
-        <item itemvalue="Python.10814_나이순정렬" />
+        <item itemvalue="Python.1978_소수찾기" />
+        <item itemvalue="Python.1008_A,B" />
+        <item itemvalue="Python.B" />
+        <item itemvalue="Python.2920_음계" />
+        <item itemvalue="Python.11654_아스키코드" />
       </list>
     </recent_temporary>
   </component>
