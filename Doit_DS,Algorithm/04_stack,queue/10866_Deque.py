@@ -49,6 +49,7 @@ from collections import deque
 dq = deque()
 for i in range(n):
     order = sys.stdin.readline().split()
+    input()
 
     if order[0] == 'push_front':
         #deque.insert(0, order[1])
