@@ -16,7 +16,7 @@ for i in range(m):
 for i in range(n+1):
     graph[i].sort()
 
-#print(graph)
+print(graph)
 
 def dfs(graph, v, visited):
     visited[v] = True
