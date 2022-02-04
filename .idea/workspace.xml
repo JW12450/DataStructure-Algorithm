@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Category/BFS, DFS/1987_알파벳.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Category/BFS, DFS/7569_토마토.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/BFS, DFS/2206_벽 부수고 이동하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/BFS, DFS/2583_영역 구하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Dynamic Programming/1003_피보나치.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Dynamic Programming/1463_1로 만들기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Dynamic Programming/9095_1,2,3더하기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +49,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.1987_알파벳">
-    <configuration name="10026_적록색약" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.2206_벽 부수고 이동하기">
+    <configuration name="1463_1로 만들기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,32 +58,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Dynamic Programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/10026_적록색약.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="11403_경로 찾기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DS,Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/11403_경로 찾기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Dynamic Programming/1463_1로 만들기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2468_안전영역" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2206_벽 부수고 이동하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,7 +104,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/2468_안전영역.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/2206_벽 부수고 이동하기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2583_영역 구하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DS,Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/2583_영역 구하기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2206_벽 부수고 이동하기" />
+        <item itemvalue="Python.2583_영역 구하기" />
+        <item itemvalue="Python.1463_1로 만들기" />
         <item itemvalue="Python.1987_알파벳" />
         <item itemvalue="Python.7569_토마토" />
-        <item itemvalue="Python.10026_적록색약" />
-        <item itemvalue="Python.11403_경로 찾기" />
-        <item itemvalue="Python.2468_안전영역" />
       </list>
     </recent_temporary>
   </component>
