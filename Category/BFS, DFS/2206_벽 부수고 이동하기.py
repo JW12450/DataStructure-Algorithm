@@ -77,38 +77,34 @@ else:
 """
 
 import sys
+from collections import deque
+
+n, m = map(int, sys.stdin.readline().split())
+
+s = [ list(map(int, sys.stdin.readline().rstrip())) for i in range(n)]
 
 dx = [1, -1, 0, 0]
 dy = [0, 0, 1, -1]
-
 def bfs():
-    q = []
+    q = deque()
     q.append([0, 0, 1])
-    visit = [[[0] * 2 for _ in range(m)] for __ in range(n)]
+    visit = [[[0] * 2 for i in range(m)] for i in range(n)]
     visit[0][0][1] = 1
-
     while q:
-        x, y, w = q.pop(0)
-        if x == n - 1 and y == m - 1:
-            return visit[x][y][w]
-
-            for i in range(4):
-                nx = x + dx[i]
-                ny = y + dy[i]
-
-                if 0 <= nx < n and 0 <= ny < m:
-                    if location[nx][ny] == 1 and w == 1:
-                        visit[nx][ny][0] = visit[x][y][1] + 1
-
-                        q.append([nx, ny, 0])
-
-                    elif location[nx][ny] == 0 and visit[nx][ny][w] == 0:
-                        visit[nx][ny][w] = visit[x][y][w] + 1
-                        q.append([nx, ny, w])
+        a, b, w = q.popleft()
+        if a == n - 1 and b == m - 1:
+            return visit[a][b][w]
+        for i in range(4):
+            x = a + dx[i]
+            y = b + dy[i]
+            if 0 <= x < n and 0 <= y < m:
+                if s[x][y] == 1 and w == 1:
+                    visit[x][y][0] = visit[a][b][1] + 1
+                    q.append([x, y, 0])
+                elif s[x][y] == 0 and visit[x][y][w] == 0:
+                    visit[x][y][w] = visit[a][b][w] + 1
+                    q.append([x, y, w])
 
     return -1
 
-n, m = map(int, sys.stdin.readline().split())
-location = [list(map(int, sys.stdin.readline().rstrip())) for _ in range(n)]
 print(bfs())
-

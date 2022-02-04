@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Category/BFS, DFS/2206_벽 부수고 이동하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Category/BFS, DFS/2583_영역 구하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Category/Dynamic Programming/1003_피보나치.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Category/Dynamic Programming/1463_1로 만들기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Category/Dynamic Programming/9095_1,2,3더하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/1202_보석도둑.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/1744_수묶기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/2437_저울.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/2470_두용액.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Sorting/3273_두수의합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/String/1786_찾기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Category/BFS, DFS/2206_벽 부수고 이동하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/BFS, DFS/2206_벽 부수고 이동하기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +51,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.2206_벽 부수고 이동하기">
-    <configuration name="1463_1로 만들기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1202_보석도둑">
+    <configuration name="1202_보석도둑" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +60,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Dynamic Programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Dynamic Programming/1463_1로 만들기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Sorting/1202_보석도둑.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1987_알파벳" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1744_수묶기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/1987_알파벳.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Sorting/1744_수묶기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2206_벽 부수고 이동하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2437_저울" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/2206_벽 부수고 이동하기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Sorting/2437_저울.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2583_영역 구하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2470_두용액" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/2583_영역 구하기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Sorting/2470_두용액.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7569_토마토" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3273_두수의합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/7569_토마토.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Sorting/3273_두수의합.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2206_벽 부수고 이동하기" />
-        <item itemvalue="Python.2583_영역 구하기" />
-        <item itemvalue="Python.1463_1로 만들기" />
-        <item itemvalue="Python.1987_알파벳" />
-        <item itemvalue="Python.7569_토마토" />
+        <item itemvalue="Python.1202_보석도둑" />
+        <item itemvalue="Python.2437_저울" />
+        <item itemvalue="Python.1744_수묶기" />
+        <item itemvalue="Python.2470_두용액" />
+        <item itemvalue="Python.3273_두수의합" />
       </list>
     </recent_temporary>
   </component>
