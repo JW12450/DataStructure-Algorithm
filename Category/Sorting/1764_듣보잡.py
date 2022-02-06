@@ -1,27 +1,21 @@
 import sys
 
 n, m = map(int, sys.stdin.readline().split())
-tot = []
-a1 = []
-for _ in range(n):
+
+a1 = set()
+for i in range(n):
     s = sys.stdin.readline().rstrip()
-    a1.append(s)
-    tot.append(s)
-a2= []
+    a1.add(s)
+
+a2= set()
 for _ in range(m):
-    a2.append(sys.stdin.readline().rstrip())
+    s = sys.stdin.readline().rstrip()
+    a2.add(s)
 
-ans =[]
-if len(a1)>len(a2):
-    for a in a2:
-        if a in a1:
-            ans.append(a)
-else:
-    for a in a1:
-        if a in a2:
-            ans.append(a)
+ans = list(a1.intersection(a2))
+print(len(ans))
 
-print(len(a2))
-ans.sort()
-for a in ans:
-    print(a)
+if len(ans) != 0:
+    ans.sort()
+    for a in ans:
+        print(a)
