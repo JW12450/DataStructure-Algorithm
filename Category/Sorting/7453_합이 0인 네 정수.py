@@ -1,4 +1,6 @@
+import itertools
 import sys
+from itertools import product
 
 n = int(sys.stdin.readline())
 A=[]
@@ -13,4 +15,21 @@ for _ in range(n):
     D.append(d)
 
 ab_dict = {}
-cd_dict = {}
+ans = 0
+
+for i in range(n):
+    for j in range(n):
+        ab = A[i] + B[j]
+        if ab in ab_dict:
+            ab_dict[ab] += 1
+        else:
+            ab_dict[ab] = 1
+
+for i in range(n):
+    for j in range(n):
+        cd = -(C[i] + D[j])
+        if cd in ab_dict:
+            ans += ab_dict[cd]
+
+print(ans)
+#result = list(itertools.product(A, B, C, D))
