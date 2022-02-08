@@ -45,8 +45,6 @@ def bfs(graph, x, y):
 
 safe_zone = []
 for comb in wall_comb:
-    #wall_copy = wall_list.copy()
-    #wall_copy.append(comb)
     graph_ = copy.deepcopy(graph)
     for i in range(3):
         #print(graph_)
