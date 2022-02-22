@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Category/BruteForce/15686_치킨배달.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmers/Hash/완주하지 못한 선수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmers/Hash/전화번호 목록.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmers/Stack, Queue/기능개발.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Category/Dynamic Programming/1149_RGB거리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Dynamic Programming/1149_RGB거리.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
