@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Category/Backtracking/14889_스타트와 링크.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Category/Divide&amp;Conquer/1992_쿼드트리.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Category/Dynamic Programming/동물원.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALICE_Algorithm/새 신을 신고 뛰어보자.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALICE_Algorithm/토끼의 당근 심기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/BFS, DFS/14442_벽 부수고 이동하기 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Dynamic Programming/1915_가장 큰 정사각형.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Category/Divide&amp;Conquer/1992_쿼드트리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Divide&amp;Conquer/1992_쿼드트리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Category/Divide&amp;Conquer/2630_색종이만들기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Divide&amp;Conquer/2630_색종이만들기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,7 @@
       <recent name="$PROJECT_DIR$/Category/Sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1992_쿼드트리">
+  <component name="RunManager" selected="Python.14442_벽 부수고 이동하기 2">
     <configuration name="동물원" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,6 +70,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Dynamic Programming/동물원.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="14442_벽 부수고 이동하기 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DS,Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/14442_벽 부수고 이동하기 2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1780_종이의 개수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1915_가장 큰 정사각형" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Divide&amp;Conquer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Dynamic Programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Divide&amp;Conquer/1780_종이의 개수.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Dynamic Programming/1915_가장 큰 정사각형.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,34 +162,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9205_맥주 마시면서 걸어가기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DS,Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/9205_맥주 마시면서 걸어가기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.14442_벽 부수고 이동하기 2" />
+        <item itemvalue="Python.1915_가장 큰 정사각형" />
         <item itemvalue="Python.1992_쿼드트리" />
         <item itemvalue="Python.14889_스타트와 링크" />
         <item itemvalue="Python.동물원" />
-        <item itemvalue="Python.9205_맥주 마시면서 걸어가기" />
-        <item itemvalue="Python.1780_종이의 개수" />
       </list>
     </recent_temporary>
   </component>

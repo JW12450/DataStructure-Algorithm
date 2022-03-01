@@ -10,9 +10,7 @@ white = 0
 blue = 0
 def square_check(x, y, n):
     global blue, white
-
     check = array[x][y]
-
     for i in range(x, x+n):
         for j in range(y, y+n):
             if check!= array[i][j]:
