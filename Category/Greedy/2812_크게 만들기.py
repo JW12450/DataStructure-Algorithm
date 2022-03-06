@@ -12,7 +12,8 @@ stack = []
 delnum = k
 for i in range(n):
     while delnum>0 and stack:
-        if stack[len(stack)-1] < a[i]:
+        print(stack)
+        if stack[-1] < a[i]:
             stack.pop()
             delnum -= 1
         else:
