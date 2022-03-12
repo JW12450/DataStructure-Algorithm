@@ -16,4 +16,4 @@ def solution(money, costs):
         costs.pop(min_idx)
         pay.pop(min_idx)
 
-    return answerq
+    return answer
