@@ -30,6 +30,7 @@ def dijkstra(start):
             continue
 
         #현재 노드와 연결된 다른 인접한 노드들을 확인
+        print(graph[now])
         for i in graph[now]:
             #print(i)
             cost = dist + i[1]
