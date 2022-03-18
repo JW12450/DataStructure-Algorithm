@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Category/Dijkstra/11779_최소비용 구하기 2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Category/Backtracking/15650_ N과 M(2).py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Backtracking/15650_ N과 M(2).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Category/Backtracking/9663_N-Queen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Backtracking/9663_N-Queen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Category/Dynamic Programming/1265_평범한 배낭.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Dynamic Programming/1265_평범한 배낭.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

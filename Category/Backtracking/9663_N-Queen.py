@@ -4,9 +4,6 @@ def adjacent(x):  # x와 i 가 같으면 행이 같은거 근데 for문을 보�
             return False  # 대각선이 같은경우는 두 좌표에서 행 - 행 = 열 - 열 이 같으면 두개는 같은 대각선상에 있다.
     return True
 
-
-# 한줄씩 재귀하며 dfs 실행
-
 def dfs(x):
     global result
 
@@ -19,12 +16,8 @@ def dfs(x):
             if adjacent(x):  # 행,열,대각선 체크함수 true이면 백트래킹 안하고 계속 진행
                 dfs(x + 1)
 
-
-# N = int(input())/
 N = int(input())
 row = [0] * N
 result = 0
-#print(row)
 dfs(0)
-# print(row)
 print(result)

@@ -15,6 +15,7 @@ for c in comb:
 분할 정복 이용 풀이법
 """
 s = []
+#N과 M
 def dfs(start):
     if len(s) == m:
         print(' '.join(map(str,s)))
