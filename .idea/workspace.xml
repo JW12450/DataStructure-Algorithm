@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/Category/Math/10430.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Category/Implementation &amp; Simulation/14503_로봇 청소기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Implementation &amp; Simulation/14503_로봇 청소기.py" afterDir="false" />
     </list>
@@ -52,7 +51,7 @@
       <recent name="$PROJECT_DIR$/Category/Sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10430">
+  <component name="RunManager" selected="Python.14503_로봇 청소기">
     <configuration name="10430" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,8 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.10430" />
         <item itemvalue="Python.14503_로봇 청소기" />
+        <item itemvalue="Python.10430" />
         <item itemvalue="Python.17144_미세먼지 안녕!" />
         <item itemvalue="Python.MBTI" />
         <item itemvalue="Python.1915_가장 큰 정사각형" />
