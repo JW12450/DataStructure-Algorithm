@@ -43,20 +43,12 @@ def move(graph, x, y, d):
     elif 0 <= nx < n and 0 <= ny < m and not(graph[nx][ny] == 0):
         return nx, ny, tmp
 
-
-
-
-
 cnt = 0
 x, y = r, c
 clean(graph, x, y)
 dir = ["서", '남', '동', '북']
 while x >0 and y >0:
-    x,y,d = move(graph, x, y, d)
+    x,y,d= move(graph, x, y, d)
     d %= 4
-    #print("현재 보고 있는 방향", dir[d])
-    #print("x, y :", x, y)
-    #print("cnt:", cnt)
-    #print()
 
 print(cnt)
