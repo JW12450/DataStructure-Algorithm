@@ -52,3 +52,4 @@ while x >0 and y >0:
     d %= 4
 
 print(cnt)
+

@@ -5,23 +5,23 @@ def reverse(x, y):
 
 
 def check():
-    for i in range(N):
-        for j in range(M):
+    for i in range(n):
+        for j in range(m):
             if A[i][j] != B[i][j]:
                 return False
 
     return True
 
 
-N, M = map(int, input().split())
+n, m = map(int, input().split())
 
-A = [list(map(int, list(input()))) for _ in range(N)]
-B = [list(map(int, list(input()))) for _ in range(N)]
+A = [list(map(int, list(input()))) for _ in range(n)]
+B = [list(map(int, list(input()))) for _ in range(n)]
 
 count = 0
 
-for i in range(N - 2):
-    for j in range(M - 2):
+for i in range(n - 2):
+    for j in range(m - 2):
         if A[i][j] != B[i][j]:
             reverse(i, j)
             count += 1

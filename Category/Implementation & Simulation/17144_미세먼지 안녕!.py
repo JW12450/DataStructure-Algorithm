@@ -55,7 +55,6 @@ def clean_dust(graph):
     #위
     for i in range(r-2, c2, -1):
         graph_[i][0] =graph[i+1][0]
-
     return graph_
 
 cleaner = []
