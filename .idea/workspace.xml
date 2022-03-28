@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze2/2908_상수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze5/10171_고양이.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Category/Greedy/1931_회의실배정.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze4/9498_시험성적.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Category/Greedy/1080_행렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Greedy/1080_행렬.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Category/Implementation &amp; Simulation/14503_로봇 청소기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Implementation &amp; Simulation/14503_로봇 청소기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Category/Implementation &amp; Simulation/17144_미세먼지 안녕!.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Implementation &amp; Simulation/17144_미세먼지 안녕!.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Category/Math/10430.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Math/10430.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +52,7 @@
       <recent name="$PROJECT_DIR$/Category/Sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1080_행렬">
+  <component name="RunManager" selected="Python.9498_시험성적">
     <configuration name="10171_고양이" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,27 +87,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Greedy/1080_행렬.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="14503_로봇 청소기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DS,Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Implementation &amp; Simulation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Implementation &amp; Simulation/14503_로봇 청소기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,13 +137,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="9498_시험성적" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DS,Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaekJoon/Bronze4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaekJoon/Bronze4/9498_시험성적.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.9498_시험성적" />
         <item itemvalue="Python.1080_행렬" />
         <item itemvalue="Python.10171_고양이" />
         <item itemvalue="Python.1931_회의실배정" />
         <item itemvalue="Python.2908_상수" />
-        <item itemvalue="Python.14503_로봇 청소기" />
       </list>
     </recent_temporary>
   </component>
