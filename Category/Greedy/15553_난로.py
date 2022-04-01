@@ -16,3 +16,4 @@ for i in range(n-k):
 
 ans += len(q)
 print(ans)
+
