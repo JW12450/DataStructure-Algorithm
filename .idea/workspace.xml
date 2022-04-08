@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze2/2798_블랙잭.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze3/4153_직각삼각형.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Category/Stack, Queue/3190_뱀.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodingTest/0402_wanted/a_물약 구매.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze2/15829_hashing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Math/1929_소수 구하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Stack, Queue/1874_스택 수열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Stack, Queue/2493_탑.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/Stack, Queue/5430_AC.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Category/Greedy/1080_행렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Greedy/1080_행렬.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Category/Greedy/1931_회의실배정.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/Greedy/1931_회의실배정.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +56,8 @@
       <recent name="$PROJECT_DIR$/Category/Sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3190_뱀">
-    <configuration name="1931_회의실배정" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.5430_AC">
+    <configuration name="1874_스택 수열" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,11 +65,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Greedy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Stack, Queue" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Greedy/1931_회의실배정.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Stack, Queue/1874_스택 수열.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2493_탑" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DS,Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Stack, Queue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Stack, Queue/2493_탑.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4153_직각삼각형" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5430_AC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,32 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaekJoon/Bronze3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Stack, Queue" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaekJoon/Bronze3/4153_직각삼각형.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="a_물약 구매" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DS,Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodingTest/0402_wanted" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodingTest/0402_wanted/a_물약 구매.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Stack, Queue/5430_AC.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5430_AC" />
+        <item itemvalue="Python.1874_스택 수열" />
+        <item itemvalue="Python.2493_탑" />
         <item itemvalue="Python.3190_뱀" />
         <item itemvalue="Python.2798_블랙잭" />
-        <item itemvalue="Python.a_물약 구매" />
-        <item itemvalue="Python.4153_직각삼각형" />
-        <item itemvalue="Python.1931_회의실배정" />
       </list>
     </recent_temporary>
   </component>
