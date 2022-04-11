@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/BaekJoon/Bronze2/15829_hashing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Category/Math/1929_소수 구하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Category/Stack, Queue/1874_스택 수열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Category/Stack, Queue/2493_탑.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Category/Stack, Queue/5430_AC.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
