@@ -81,30 +81,43 @@ from collections import deque
 
 n, m = map(int, sys.stdin.readline().split())
 
-s = [ list(map(int, sys.stdin.readline().rstrip())) for i in range(n)]
-
-dx = [1, -1, 0, 0]
-dy = [0, 0, 1, -1]
+graph = [ list(map(int, sys.stdin.readline().rstrip())) for i in range(n)]
+#상하좌우
+dx = [-1, 1, 0, 0]
+dy = [0, 0, -1, 1]
 def bfs():
-    q = deque()
-    q.append([0, 0, 1])
+    queue = deque()
+    queue.append([0, 0, 1])
+    #x,y좌표,벽을 뚫을 수 있는 상태(0이면 뚫을 기회 사용, 1이면 뚫을 기회 있음)
     visit = [[[0] * 2 for i in range(m)] for i in range(n)]
     visit[0][0][1] = 1
-    while q:
-        a, b, w = q.popleft()
-        if a == n - 1 and b == m - 1:
-            return visit[a][b][w]
+    while queue:
+        x, y, w = queue.popleft()
+        if x == n - 1 and y == m - 1:
+            return visit[x][y][w]
+        #4방향에 대해 동시에 탐색해서 queue에 넣기 때문에, 벽을 부수는 모든 경우의 수 고려 가능(더 빠른 경우의 수를 우선적으로 탐색하게 됨)
         for i in range(4):
-            x = a + dx[i]
-            y = b + dy[i]
-            if 0 <= x < n and 0 <= y < m:
-                if s[x][y] == 1 and w == 1:
-                    visit[x][y][0] = visit[a][b][1] + 1
-                    q.append([x, y, 0])
-                elif s[x][y] == 0 and visit[x][y][w] == 0:
-                    visit[x][y][w] = visit[a][b][w] + 1
-                    q.append([x, y, w])
+            nx = x + dx[i]
+            ny = y + dy[i]
+            if 0 <= nx < n and 0 <= ny < m:
+                #벽을 만났고, 뚫을수 있는 기회가 있는 경우
+                if graph[nx][ny] == 1 and w == 1:
+                    visit[nx][ny][0] = visit[x][y][1] + 1
+                    queue.append([nx, ny, 0])
+                #벽을 한번 뚫은 경우에는 벽이 아닌 곳들만 탐색
+                elif graph[nx][ny] == 0 and visit[nx][ny][w] == 0:
+                    visit[nx][ny][w] = visit[x][y][w] + 1
+                    queue.append([nx, ny, w])
 
     return -1
 
 print(bfs())
+'''
+[[3, 1], [2, 0], [3, 0], [4, 0]]
+[[2, 0], [0, 0], [0, 0], [5, 0]]
+[[0, 0], [8, 0], [7, 0], [6, 0]]
+[[10, 0], [9, 0], [8, 0], [7, 0]]
+[[11, 0], [0, 0], [0, 0], [0, 0]]
+[[12, 0], [13, 0], [14, 0], [15, 0]]
+'''
+

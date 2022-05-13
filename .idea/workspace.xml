@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d719f6-ab74-4e31-8825-7fac07838f43" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/Category/BFS, DFS/15900_나무탈출.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Category/BFS, DFS/5427_불.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Category/BFS, DFS/1260_DFS와 BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/BFS, DFS/1260_DFS와 BFS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Category/BFS, DFS/14502_연구소.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/BFS, DFS/14502_연구소.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Category/BFS, DFS/16236_아기상어.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/BFS, DFS/16236_아기상어.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Category/BFS, DFS/1987_알파벳.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/BFS, DFS/1987_알파벳.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Category/BFS, DFS/2206_벽 부수고 이동하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/BFS, DFS/2206_벽 부수고 이동하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Category/BFS, DFS/7569_토마토.py" beforeDir="false" afterPath="$PROJECT_DIR$/Category/BFS, DFS/7569_토마토.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +59,8 @@
       <recent name="$PROJECT_DIR$/Category/Sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.5430_AC">
-    <configuration name="1874_스택 수열" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1987_알파벳">
+    <configuration name="14502_연구소" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +68,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Stack, Queue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Stack, Queue/1874_스택 수열.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/14502_연구소.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2493_탑" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16236_아기상어" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +89,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Stack, Queue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Stack, Queue/2493_탑.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/16236_아기상어.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2798_블랙잭" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1987_알파벳" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +110,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaekJoon/Bronze2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaekJoon/Bronze2/2798_블랙잭.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/1987_알파벳.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3190_뱀" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2206_벽 부수고 이동하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Stack, Queue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Stack, Queue/3190_뱀.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/2206_벽 부수고 이동하기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5430_AC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5427_불" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DS,Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,11 +152,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/Stack, Queue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Category/BFS, DFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/Stack, Queue/5430_AC.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Category/BFS, DFS/5427_불.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.5430_AC" />
-        <item itemvalue="Python.1874_스택 수열" />
-        <item itemvalue="Python.2493_탑" />
-        <item itemvalue="Python.3190_뱀" />
-        <item itemvalue="Python.2798_블랙잭" />
+        <item itemvalue="Python.1987_알파벳" />
+        <item itemvalue="Python.16236_아기상어" />
+        <item itemvalue="Python.14502_연구소" />
+        <item itemvalue="Python.5427_불" />
+        <item itemvalue="Python.2206_벽 부수고 이동하기" />
       </list>
     </recent_temporary>
   </component>

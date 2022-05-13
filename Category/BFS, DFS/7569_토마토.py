@@ -13,8 +13,6 @@ for x in range(h):
             if graph[x][y][z] == 1:
                 start_point.append((x,y,z))
 
-#print(start_point)
-
 #3차원 행렬상에서 이동 기준 : 위 아래 왼쪽 오른쪽 앞 뒤
 dx = [1, -1, 0, 0, 0, 0]
 dy = [0, 0, -1, 1, 0, 0]
@@ -42,14 +40,6 @@ def bfs():
                 graph[nx][ny][nz] = graph[x][y][z] + 1
                 queue.append( (nx, ny, nz) )
 
-            #if graph[nx][ny][nz] > 1 and graph[nx][ny][nz] > (graph[nx][ny][nz]+1):
-            #    graph[nx][ny][nz] = graph[nx][ny][nz] + 1
-            #    queue.append((nx, ny, nz))
-"""
-for i in range(len(start_point)):
-    x, y = start_point[i]
-    bfs(x, y)
-"""
 
 bfs()
 

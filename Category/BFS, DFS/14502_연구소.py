@@ -15,11 +15,14 @@ for i in range(n):
         if graph[i][j] == 0:
             wall_candidate.append( (i, j) )
 
+#3 <= NM <=8 이므로 완전탐색
 wall_comb = list(combinations(wall_candidate, 3))
+
 #이동할 방향을 정의(상하좌우)
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
 
+#안전영역 탐색
 def bfs(graph, x, y):
     global visited
     queue = deque()
@@ -45,9 +48,9 @@ def bfs(graph, x, y):
 
 safe_zone = []
 for comb in wall_comb:
+    #매 조합마다 새로운 그래프 조합에 따른 벽 3개를 추가하여 탐색
     graph_ = copy.deepcopy(graph)
     for i in range(3):
-        #print(graph_)
         x, y = comb[i]
         graph_[x][y] = 1
 
@@ -63,14 +66,7 @@ for comb in wall_comb:
             if graph_[i][j] == 0:
                 sum += 1
 
-    #for g in graph_:
-    #    print(g)
-    #print(sum)
     safe_zone.append(sum)
-    """
-    for g in graph_:
-        print(g)
-    print()
-    """
 
+#안전 영역 크기의 최댓값
 print(max(safe_zone))
