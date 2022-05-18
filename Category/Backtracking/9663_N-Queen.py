@@ -1,23 +1,31 @@
-def adjacent(x):  # x와 i 가 같으면 행이 같은거 근데 for문을 보면 x와 i가 같을 수가 없다.
-    for i in range(x):  # 인덱스가 행  row[n]값이 열
-        if row[x] == row[i] or abs(row[x] - row[i]) == x - i:  # 열이 같거나 대각선이 같으면 false
-            return False  # 대각선이 같은경우는 두 좌표에서 행 - 행 = 열 - 열 이 같으면 두개는 같은 대각선상에 있다.
+import sys
+n = int(sys.stdin.readline())
+
+ans = 0
+#퀸이 놓여지는 위치 [i][j] -> row[i]=j
+row = [0] * n
+
+def is_promising(x):
+    for i in range(x):
+        #놓인 위치를 기준으로 같은열에 이미 놓여진 퀸이 있는 경우 / 왼쪽 대각선, 오른쪽 대각선에 이미 놓여진 퀸이 있는 경우
+        if row[x] == row[i] or abs(row[x] - row[i]) == abs(x - i):
+            return False
     return True
 
-def dfs(x):
-    global result
+def n_queens(x):
+    global ans
+    if x == n:
+        ans += 1
+        return
 
-    if x == N:
-        result += 1
     else:
-        # 각 행에 퀸 놓기
-        for i in range(N):  # i 는 열번호 0부터 N 전까지 옮겨가면서 유망한곳 찾기
+        for i in range(n):
+            # [x, i]에 퀸 배치
             row[x] = i
-            if adjacent(x):  # 행,열,대각선 체크함수 true이면 백트래킹 안하고 계속 진행
-                dfs(x + 1)
+            #해당 위치에 놓는 것이 가능한 경우
+            if is_promising(x):
+                n_queens(x + 1)
 
-N = int(input())
-row = [0] * N
-result = 0
-dfs(0)
-print(result)
+
+n_queens(0)
+print(ans)
